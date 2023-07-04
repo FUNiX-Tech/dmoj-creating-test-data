@@ -23,7 +23,6 @@ while i <= user_quantity:
         cloned_username = cloned_username_prefix + str(i)
         cloned_email = cloned_username + '@gmail.com'
         values = list(map(lambda item: str(item), list(template_user_values)[1:]))
-        print(values)
         values[0] = password
         values[3] = cloned_username
         values[4] = 'Cloned Firsname'
