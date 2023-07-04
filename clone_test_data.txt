@@ -1,0 +1,4 @@
+for i in {1..2000}
+    do
+        cp -r /projects/foj/problems/hungry /projects/foj/problems/clonehungry$i
+    done
